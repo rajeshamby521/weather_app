@@ -1,0 +1,82 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android specific
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/proguard-rules.pro
+android/key.properties
+**/gradle-wrapper.jar
+
+# iOS/macOS specific
+ios/Flutter/.last_build_id
+ios/.generated/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter.podspec
+macos/.flutter-plugins-dependencies
+macos/Flutter/Flutter.xcconfig
+
+# Web specific
+web/.dart_tool/
+web/.packages
+
+# Windows specific
+windows/.dart_tool/
+windows/.packages
+windows/Flutter/ephemeral/
+
+# Linux specific
+linux/.dart_tool/
+linux/.packages
+linux/Flutter/ephemeral/
+
+# Generated files
+*.iml
+*.hive
+*.lock
+*.log
+*.DS_Store
+*.pyc
+*.swp
+*.out
+*.class
+*.tmp
+*.bak
+*.~*
+
+# Misc
+.idea/
+.vscode/
+*.tmproj
+*.rsync
+*.env
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Flutter build files
+.buildlog
+.history
+.merlin
+.metadata
+.mkiln-state
