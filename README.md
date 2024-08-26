@@ -72,15 +72,7 @@ The app uses `BLoC` for state management. The key state management components in
 
 ### Home Screen
 
-![Home Screen](screenshots/home_screen.png)
-
-### Weather Forecast
-
-![Weather Forecast](screenshots/weather_forecast.png)
-
-## Video Demo
-
-[![Video Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+<img src="https://github.com/user-attachments/assets/4a3317aa-f8db-43f1-aa7d-e977bbd81ec4" width="195" height="422">
 
 ## Running the App
 
@@ -95,7 +87,7 @@ The app uses `BLoC` for state management. The key state management components in
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/weather_app.git
+    git clone https://github.com/rajeshamby521/weather_app.git
     ```
 
 2. Navigate to the project directory:
