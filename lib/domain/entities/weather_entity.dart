@@ -20,9 +20,10 @@ class WeatherEntity {
   // Creating WeatherEntity from JSON
   factory WeatherEntity.fromJson(Map<String, dynamic> json) {
     return WeatherEntity(
-      forecast: (json['forecast'] as BuiltList)
-          .map((item) => WeatherDataEntity.fromJson(item))
-          .toBuiltList(),
+      forecast: BuiltList<WeatherDataEntity>.from(
+        (json['forecast'] as List<dynamic>)
+            .map((item) => WeatherDataEntity.fromJson(item)),
+      ),
       city: CityEntity.fromJson(json['city']),
     );
   }
