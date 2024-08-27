@@ -103,7 +103,7 @@ The app uses `BLoC` for state management. The key state management components in
     ```
 
 
-4Run the app:
+4. Run the app:
 
     ```bash
     flutter run
